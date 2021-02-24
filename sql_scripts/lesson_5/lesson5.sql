@@ -4,12 +4,12 @@ CREATE DATABASE new_ex;
 USE new_ex;
 
 DROP TABLE IF EXISTS store;
-CREATE TABLE friendship_statuses (
+CREATE TABLE store (
 	id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(150) NOT NULL UNIQUE,
-	values BIGINT;
+	values_product BIGINT,
 	created_at VARCHAR(150),
-	updated_at VARCHAR(150);
+	updated_at VARCHAR(150));
 
 ALTER TABLE store MODIFY created_at DATETIME DEFAULT CURRENT_TIMESTAMP;
 ALTER TABLE store MODIFY updated_at DATETIME 
