@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS store;
 CREATE TABLE store (
 	id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(150) NOT NULL UNIQUE,
-	values_product bigint,
+	values_product BIGINT,
 	created_at VARCHAR(150),
 	updated_at VARCHAR(150));
 
