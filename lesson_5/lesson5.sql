@@ -7,7 +7,7 @@ DROP TABLE IF EXISTS store;
 CREATE TABLE friendship_statuses (
 	id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(150) NOT NULL UNIQUE,
-	values BEGINT;
+	values BIGINT;
 	created_at VARCHAR(150),
 	updated_at VARCHAR(150);
 
